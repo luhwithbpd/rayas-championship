@@ -1,0 +1,38 @@
+.menu-card{
+
+    width:260px;
+    height:150px;
+
+    border-radius:16px;
+
+    background:white;
+
+    border:1px solid #E7E7E7;
+
+    padding:24px;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.menu-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.menu-card.blue{
+
+    background:#2962FF;
+
+    color:white;
+
+}
+
+.menu-card.yellow{
+
+    background:#FDB813;
+
+}
