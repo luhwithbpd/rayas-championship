@@ -108,3 +108,24 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: calc(100vh - 72px - 60px);
+    padding: 20px;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 260px);
+    grid-template-rows: repeat(2, 150px);
+    
+
+    gap: 30px;
+
+    justify-content: center;
+    align-content: center;
+}

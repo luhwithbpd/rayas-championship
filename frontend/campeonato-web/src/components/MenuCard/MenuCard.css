@@ -3,6 +3,16 @@
     width:260px;
     height:150px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 16px;
+
+    box-sizing: border-box;
+
+
     border-radius:16px;
 
     background:white;
@@ -16,6 +26,7 @@
     transition:.2s;
 
 }
+
 
 .menu-card:hover{
 
