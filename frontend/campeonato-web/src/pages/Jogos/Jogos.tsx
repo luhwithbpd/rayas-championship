@@ -1,19 +1,19 @@
-import { Header } from "../../components/Header/Header";
-import { Footer } from "../../components/Footer/Footer";
+import { MainLayout } from "../../components/Layout/MainLayout";
+import { Button } from "../../components/Button/Button";
+import { SearchBar } from "../../components/SearchBar/SearchBar";
 
 export default function Jogos() {
-
     return (
-        <>
-            <Header />
+        <MainLayout>
 
-            <main className="container">
+            <h1>Jogos</h1>
 
-                <h1>Jogos</h1>
+            <SearchBar placeholder="Pesquisar jogos..." />
 
-            </main>
+            <Button>
+                + Novo jogo
+            </Button>
 
-            <Footer />
-        </>
+        </MainLayout>
     );
 }

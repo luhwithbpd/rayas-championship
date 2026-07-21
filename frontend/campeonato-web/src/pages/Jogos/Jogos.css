@@ -1,0 +1,31 @@
+.jogos-container{
+    padding:40px;
+}
+
+.jogos-container h1{
+    font-size:2rem;
+    margin-bottom:30px;
+    color:#0f1f4d;
+}
+
+.novo-jogo{
+
+    width:100%;
+    height:60px;
+
+    border:none;
+    border-radius:16px;
+
+    background:#FDB813;
+
+    font-size:1.5rem;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.2s;
+}
+
+.novo-jogo:hover{
+    background:#f5aa00;
+}

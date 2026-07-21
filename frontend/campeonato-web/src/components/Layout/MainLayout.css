@@ -1,0 +1,9 @@
+.layout{
+
+    min-height:calc(100vh - 132px);
+
+    padding:32px;
+
+    background:#F5F7FA;
+
+}

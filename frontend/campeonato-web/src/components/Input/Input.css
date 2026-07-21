@@ -1,0 +1,39 @@
+.input-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+.input-group label{
+
+    font-weight:600;
+
+    color:#374151;
+
+}
+
+.input-group input{
+
+    height:48px;
+
+    border:1px solid #D1D5DB;
+
+    border-radius:10px;
+
+    padding:0 16px;
+
+    font-size:1rem;
+
+}
+
+.input-group input:focus{
+
+    outline:none;
+
+    border-color:#2962FF;
+
+}

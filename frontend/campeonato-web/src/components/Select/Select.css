@@ -1,0 +1,21 @@
+.select-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+.select-group select{
+
+    height:48px;
+
+    border-radius:10px;
+
+    border:1px solid #D1D5DB;
+
+    padding:0 14px;
+
+}
